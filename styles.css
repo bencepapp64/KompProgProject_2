@@ -1,0 +1,31 @@
+.top{
+    background-image:url("phictures/hdd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+body{
+    font-family: 'Goldman', cursive;
+    background-color: #d3d6ce;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+p{
+    font-size: large;
+}
+
+#wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
