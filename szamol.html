@@ -50,8 +50,59 @@
           </ul>
         </div>
       </nav>
-    <div id="wrapper">
-     
+<div id="wrapper">
+    <div class="col-sm-12 center-div">
+        <h1 class="form">Érettségi érdemjegy számítás</h1>
+        <form class="form-horizontal">
+            <div class="row">
+                <h3 class="col-sm-4">Tantárgy</h3>
+                <p class="col-sm-4">Írásbeli</p>
+                <p class="col-sm-4">Szóbeli</p>
+              </div>
+            <div class="form-group row">
+                <label for="matek" class="col-sm-3"><h3>Matematika</h3></label>
+                <div class="col-sm-4">
+                <input type="number" id="irasbeliMat" class="form-control" name="matek" value="100" min="0" max="100" required>
+                </div>
+                <div class="col-sm-4">
+                <input type="number" id="szobeliMat" class="form-control" name="matek" value="50" min="0" max="50" required>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="matek" class="col-sm-3"><h3>Magyar</h3></label>
+                <div class="col-sm-4">
+                <input type="number" id="irasbeliMagy" class="form-control" name="matek" value="100" min="0" max="100" required>
+                </div>
+                <div class="col-sm-4">
+                <input type="number" id="szobeliMagy" class="form-control" name="matek" value="50" min="0" max="50" required>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="matek" class="col-sm-3"><h3>Történelem</h3></label>
+                <div class="col-sm-4">
+                <input type="number" id="irasbeliTor" class="form-control" name="matek" value="100" min="0" max="100" required>
+                </div>
+                <div class="col-sm-4">
+                <input type="number" id="szobeliTor" class="form-control" name="matek" value="60" min="0" max="60" required>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="matek" class="col-sm-3"><h3>Nyelv</h3></label>
+                <div class="col-sm-4">
+                <input type="number" id="irasbeliNyel" class="form-control" name="matek" value="100" min="0" max="100" required>
+                </div>
+                <div class="col-sm-4">
+                <input type="number" id="szobeliNyelv" class="form-control" name="matek" value="33" min="0" max="33" required>
+                </div>
+              </div>
+              <button type="submit" class="p-3 mb-2 bg-dark text-white col-sm-12" onclick="Szamol()">Eredmény</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
       
     </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
