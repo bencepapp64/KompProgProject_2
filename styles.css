@@ -14,6 +14,11 @@ p{
     font-size: 250%;
 }
 
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
 body{
     font-family: 'Goldman', cursive;
     background-color: #d3d6ce;
